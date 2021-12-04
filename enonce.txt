@@ -1,0 +1,25 @@
+
+Project 1
+
+
+1 - Charger le jeu de données COEUR.
+
+2 - Vérifier les doublons des lignes et les supprimer.
+3 - Vérifier les données manquantes et les supprimer.
+4 - Vérifier s'il y a des constantes (variables qui retourne la même valeur).
+exemple: compter le nombre de modalités pour chaque variable.
+5 - Recoder les variables qualitatives.
+
+6 - Normaliser les variables quantititatives.
+standardisation: (valeur variable - moyenne variable) / (ecart type variable)
+mise à l'échelle: (valeur variable / valeur maximale variable)
+7 - Créer deux objets: x contenant les variables AGE jusqu'à PENTE et y contenant uniquement COEUR.
+8 - from sklearn import model...
+On donne train_test_split(x, y, taux=0,2 ou 0,3) dans sklearn.
+
+9 - from sklearn import lineair...
+Importer la classe regression logistique (parce que la variable cible COEUR est binaire, alors on utilise la regression 
+logistique) et l'appliquer en lui donnant xtrain et ytrain.
+10 - Concevoir la matrice de confusion, la précision et la sensibilité.
+
+A rendre vendredi 22 novembre 2021 à 17h.
